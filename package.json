@@ -1,0 +1,36 @@
+{
+  "name": "axis-request",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "unbuild",
+    "release": "npm publish"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "sunshie_lin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/qs": "^6.9.10",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "eslint": "^8.47.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.2",
+    "typescript": "^5.1.6",
+    "unbuild": "^2.0.0"
+  },
+  "peerDependencies": {
+    "axios": "^1.4.0",
+    "vue": "^3.0.0"
+  },
+  "dependencies": {
+    "minimatch": "^9.0.3",
+    "qs": "^6.11.0"
+  }
+}
